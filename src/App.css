@@ -21,8 +21,13 @@ body{
 }
 
 .ListItems{
+    
     background: #fff;
     color: #46529d;
+}
+.ListItems div{
+    
+   display: flex;
 }
 
 .ListItems p{
@@ -73,36 +78,42 @@ body{
 
 }
 
-form input{
-    padding: 10px;
-    background: #fff;
-    border: transparent;
-    border: 0.3px solid #ccc;
+.form{
+    margin-top: 50px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
+.form-su  input[type=text]{
+    width: 39%;
+    height: 50px;
+    border: 0.3px solid #2Ebaee;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: larger;
+    padding: 15px;
+}
+.form-su  input[type=number]{
 
-form input[type=text]{
+    width: 39%;
+    font-size: larger;
+    height: 50px;
+    border: 0.3px solid #2Ebaee;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 15px;
+
+}
+
+.form-su  input[type=submit]{
+   font-size: x-large;
+    width: 19%;
+    height: 50px;
     background: #2Ebaee;
     border: 0.3px solid #2Ebaee;
     color:#fff;
     cursor: pointer;
 
 }
-form input[type=number]{
-    
-    background: #2Ebaee;
-    border: 0.3px solid #2Ebaee;
-    color:#fff;
-    cursor: pointer;
 
-}
-
-form input[type=submit]{
-    
-    background: #2Ebaee;
-    border: 0.3px solid #2Ebaee;
-    color:#fff;
-    cursor: pointer;
-
-}

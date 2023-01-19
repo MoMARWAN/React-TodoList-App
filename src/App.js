@@ -13,9 +13,9 @@ class App extends Component {
             {id: 1,name:'mohmmed',age: 21},
             {id: 2,name:'ahmed',age: 23},
             {id: 3,name:'Brianna ',age: 30},
-            {id: 4,name:'Dieter ',age: 83},
-            {id: 5,name:'Dieter ',age: 27},
-        ]
+            
+        ],
+        
     }
 
      deleteTtem = (id) => {

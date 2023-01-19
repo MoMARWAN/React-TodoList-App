@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import '../../App.css'
+
 
 class Additem extends Component {
   state = {
@@ -12,7 +14,6 @@ class Additem extends Component {
     this.setState({
       [e.target.id]: e.target.value
     })
-    // console.log(e.target.value)
 
   }
 
@@ -31,9 +32,9 @@ class Additem extends Component {
   }
   render() {
     return (
-      <div>
+      <div  className='form-su'>
 
-        <from onSubmit={this.handleSubmit}>
+        <from className='form' onSubmit={this.handleSubmit}>
 
           <input type="text" placeholder='enter name....' id='name' onChange={this.handlechange} value={this.state.name} />
           <input type="number" placeholder='enter name....' id='age' onChange={this.handlechange} value={this.state.age} />
