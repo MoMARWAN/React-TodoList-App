@@ -29,9 +29,9 @@ class App extends Component {
     
     Additem = (item) => {
         item.id = Math.random();
-        let items = this.state.items.push(item);
+        let items = this.state.items;
+        items.push(item);
         this.setState({items})
-       
     }
 
     render(){
